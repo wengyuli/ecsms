@@ -1,0 +1,10 @@
+C:\Users\wengyuli\Desktop\CodematicDemo\Model\bin\Debug\ECSMS.Model.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\Model\bin\Debug\ECSMS.Model.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wengyuli\Desktop\CodematicDemo\Model\obj\Debug\ECSMS.Model.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\Model\obj\Debug\ECSMS.Model.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\Model\bin\Debug\ECSMS.Model.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\Model\bin\Debug\ECSMS.Model.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\ECSMS\SourceCode\ECSMS\Model\obj\Debug\ECSMS.Model.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\Model\obj\Debug\ECSMS.Model.pdb

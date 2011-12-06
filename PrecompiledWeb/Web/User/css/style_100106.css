@@ -1,0 +1,146 @@
+/*
+ * 126√‚∑—”  ◊“≥
+ * 2009-7-3 Sunji
+ */
+
+/* reset */
+html,body{height:100%}
+body{background:#fff;line-height:1.666em}
+body,input,select,button{font-family:verdana,simsun,sans-serif}
+body,select,input,textarea,button,h1,h2,h3,h4,h5,h6,table{font-size:12px}
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,form,p,dl,dt,dd,table,th,td,img,blockquote{margin:0;padding:0;border:0}
+input,button,textarea,img{line-height:normal}
+abbr,acronym,address,cite,q,em,code,var,dfn,ins{font-style:normal;text-decoration:none;border:0}
+q:before,q:after{content:""}
+ul,ol{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+select,input,button,button img,.btn{vertical-align:middle}
+.ipt-c,.ipt-r{width:16px;height:16px;padding:0;margin:0 3px 0 0;overflow:hidden}
+ 
+.ipt-b,
+.btn{font-weight:bold;font-size:14px;cursor:pointer}
+.ipt-b{border:0;background:0;padding:0;}
+.btn{text-align:center}
+a{color:#0E7347}
+
+
+/* background */
+.zxdt li a,
+.login .domain,
+.zxdt,
+.zxdt h3,
+.zxdt .end,
+.btn,
+.ipt-b,
+.ipt-t,
+.login h3,
+.intro li,
+.logo h2,
+.bg{background-image:url(images/bgimg2.jpg);background-repeat:no-repeat}
+
+.page{position:relative;height:100%;zoom:1}
+
+.head{margin:0 35px;padding:18px 0 0;text-align:right;position:relative;z-index:2}
+.head,
+.head a{color:#9C9C9C;text-decoration:none}
+.head a:hover{text-decoration:underline}
+
+.content{width:930px;height:auto;/*margin:auto;*/position:absolute;z-index:1;left:50%;top:50%;margin:-315px 0 0 -465px}
+
+	.logo{float:left;margin-bottom:-32px;position:relative;top:2px}
+	.logo h1,
+	.logo h2{float:left;display:inline}
+	.logo h2{width:165px;height:32px;text-indent:-999em;overflow:hidden;margin-left:18px}
+
+	.login{float:right;width:390px;padding-left:50px;margin-top:86px}
+	.login h3{background-position:0 -36px;width:192px;height:30px;margin:0 0 20px 5px;text-indent:-999em;overflow:hidden}
+	.login .fi{zoom:1;overflow:hidden;padding:6px 0}
+	.login .fi-btn{padding:10px 0}
+	.login .fi-nolb,
+	.login .fi-btn{padding-left:53px}
+	.login .domain{font-size:14px;color:#8E8E8E;margin-left:10px;width:80px;height:13px;background-position:-216px -36px;display:-moz-inline-box;-moz-box-align:center;display:inline-block;vertical-align:middle}
+	.login .domain span{display:none}
+	.login .lb{font-size:14px;float:left;width:44px;line-height:30px;margin-right:10px;_margin-right:7px}
+	.login label{color:#525252}
+	.login .ipt-t{font-size:16px;color:#454545;font-weight:bold;border:1px solid #737373;padding:3px 2px 2px;width:203px;height:22px;background-position:0 -72px;margin-right:-5px}
+	.login .ipt-t-focus{background:#FEFBBD}
+	.login .btn,
+	.login .ipt-b{width:90px;height:31px;color:#373737}
+	.login .ipt-b{background-position:0 -180px}
+	.login .ipt-b-hover{background-position:0 -216px}
+	.login .btn{background-position:-108px -180px}
+	.login .btn:hover{background-position:-108px -216px}
+	.login select{margin-top:4px;height:20px;width:209px}
+	.login .autologin{margin-right:15px}
+	.login #autoLoginDiv{ position:absolute; width:180px; background-color:#ffefa4; border:1px #FF9900 solid; left: 592px; top:287px; text-align:left; padding:5px; line-height:150%; color:#dc6800; display:none}
+	.login .foget{font-size:14px;margin-left:10px}
+	.login .err{margin-left:5px;color:#f00}
+	.login .reg{margin-top:25px;padding-top:25px;border-top:1px solid #e0e0e0;width:285px;margin-left:53px;font-size:14px}
+	.login .reg span,
+	.login .reg .btn{float:left;line-height:31px;text-decoration:none}
+	.login .reg span{margin-right:10px;color:#5d5d5d}
+	
+
+	.intro{width:489px;height:540px;float:left}
+	.intro .introtxt{display:none;+zoom:1;font-size:14px;line-height:30px;color:#848484}
+	.intro li{background-position:0 -256px;padding-left:20px}
+	.intro .piclink{font-size:12px;line-height:normal;padding:8px 0 0 8px;display:block;text-decoration:none;position:absolute;left:0;top:95px;width:481px;height:209px}
+
+		/* 1*/
+		.intro-1{background:url(images/gaoding.jpg) no-repeat}
+		.intro-1 .introtxt-1{padding-top:400px;display:block}
+
+		/* 2 */
+		.intro-2{background:url(images/zhuli.jpg) no-repeat}
+		.intro-2 .introtxt-2{padding-top:400px;display:block}
+
+		/* 3 */
+		.intro-3{background:url(images/gaoding1.jpg) no-repeat}
+		.intro-3 .introtxt-3{padding-top:370px;display:block}
+		.intro-3 .piclink{height:250px}
+
+		/* 4 */
+		.intro-4{background:url(images/zhuli1.jpg) no-repeat}
+		.intro-4 .introtxt-4{padding-top:370px;display:block}
+		.intro-4 .piclink{height:250px}
+
+
+		/* 5 */
+		.intro-5{background:url(images/gaoding2.jpg) no-repeat}
+		.intro-5 .introtxt-5{padding-top:370px;display:block}
+		.intro-5 .piclink{color:#fff}
+
+		/* 6 */
+		.intro-6{background:url(images/zhuli2.jpg) no-repeat}
+		.intro-6 .introtxt-6{padding-top:370px;display:block}
+		.intro-6 .piclink{color:#8BA6B3}
+
+		/* 7*/
+		.intro-7{background:url(images/gaoding3.jpg) no-repeat}
+		.intro-7 .introtxt-7{padding-top:370px;display:block}
+		.intro-7 .piclink{color:#96a8b1}
+
+.footer{position:absolute;left:0;bottom:0;width:100%;height:135px;overflow:hidden;z-index:2}
+
+	.zxdt{/*margin:0 6% 30px;*/ width:960px;margin:0 auto 25px; height:33px;line-height:31px;overflow:hidden;background-position:0 -108px;background-repeat:repeat-x}
+	.zxdt h3{float:left;letter-spacing:2px;font-size:14px;text-align:center;color:#fff;width:111px;height:33px;background-position:0 -144px}
+	.zxdt h3 a{color:#fff;text-decoration:none}
+	.zxdt .end{float:right;width:16px;height:33px;background-position:-111px -144px}
+	.zxdt ul{margin:0 76px 0 171px}
+	.zxdt li{float:left;display:inline;text-align:center;width:32%;margin-top:6px;+margin-top:8px;line-height:18px;overflow:hidden}
+	.zxdt li a{color:#737373;text-decoration:none;zoom:1}
+	.zxdt li a{padding-left:13px;background-position:-252px -5px}
+	.zxdt a:hover{text-decoration:underline}
+
+	.copyright{background:#f3f3f3;line-height:20px}
+	.copyright .inner{width:750px;margin:0 auto;padding:20px 0 15px;overflow:hidden;zoom:1}
+	.copyright .logo2010{float:left;margin:-10px 30px 0 0}
+	.copyright .countdown{float:left;color:#E60012;margin:0 30px 0 0;width:70px;height:25px;text-align:right;padding:18px 50px 0 0;background:url(images/2010countdown.jpg) no-repeat}
+	.copyright .countdown,
+	.copyright .countdown:hover{text-decoration:none}
+	.copyright .footertxt{float:center;}
+	.copyright,
+	.copyright a{color:#9C9C9C;text-decoration:none}
+	.copyright a,
+	.copyright span{margin:0 5px}
+	.copyright a:hover{text-decoration:underline}

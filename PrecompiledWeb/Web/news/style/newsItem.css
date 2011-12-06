@@ -1,0 +1,72 @@
+img {BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px}
+.news {
+	WIDTH: 870px;
+	*_WIDTH: 860px;
+	HEIGHT: 31px;
+	line-height: 31px;
+	clear: both;
+}
+.news ul {
+	MARGIN: 0px;
+	OVERFLOW: hidden;
+	liNE-HEIGHT: 31px;
+	liST-STYLE-TYPE: none;
+	HEIGHT: 31px;
+	padding: 0px;
+}
+.news ul li {MARGIN: 0px 0px 0px 1em; text-align:left;}
+.news ul li.active {DISPLAY: block}
+.news span {
+	PADDING-RIGHT: 0.75em;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px 0.75em 0px 0px;
+	PADDING-TOP: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E4E4E4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #969696;
+}
+.news ul A {
+	ColOR: #5780D7;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+}
+.news ul A:hover {
+	TEXT-DECORATION: underline;
+	color: #969696;
+}
+.news ol {
+	FLOAT: right;
+	liST-STYLE-TYPE: none;
+	padding: 0px;
+	margin-top: -32px;
+	*_margin-top: -29px; /*ie6*/
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.news ol li {
+	DISPLAY: inline;
+	width:13px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+
+}
+.news ol li A {
+	background-image: url(../images/switcher.gif);
+	background-position: 0px 26px;
+}
+.news ol li A:hover {
+	background-image: url(../images/switcher.gif);
+	background-position: 0px 13px;
+}
+.news ol li A.active {
+	BACKGROUND: url(../images/switcher.gif) 0px 0px;
+
+}
+.news ol li A.active:hover {BACKGROUND: url(../images/switcher.gif) 0px 0px}

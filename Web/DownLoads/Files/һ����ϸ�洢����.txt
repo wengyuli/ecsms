@@ -1,0 +1,13 @@
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+ALTER proc [dbo].[ReportDetail] as
+
+SELECT     dbo.tb_On_Tick_Info.On_Tick_SellDatetime_Dtm, dbo.tb_Department_Info.Dept_Name_Str, dbo.tb_User_Info.User_Name_Str, 
+                      dbo.tb_On_Tick_Info.On_Tick_SellNumber_Str, dbo.tb_On_Tick_Info.On_Tick_EndPay_Dec, dbo.tb_On_Tick_Info.On_Tick_Count_Int, 
+                      dbo.tb_On_Tick_Info.On_Tick_Discount_Dec, dbo.tb_On_Tick_Info.On_Tick_Note_Text, tb_User_Info_1.User_Name_Str AS Expr1
+FROM         dbo.tb_User_Info INNER JOIN
+                      dbo.tb_On_Tick_Info ON dbo.tb_User_Info.User_ID_Int = dbo.tb_On_Tick_Info.On_Tick_PayPerson_Int INNER JOIN
+                      dbo.tb_Department_Info ON dbo.tb_User_Info.User_DepartID_Int = dbo.tb_Department_Info.Dept_ID_Int INNER JOIN
+                      dbo.tb_User_Info AS tb_User_Info_1 ON dbo.tb_On_Tick_Info.On_Tick_SellPerson_Int = tb_User_Info_1.User_ID_Int

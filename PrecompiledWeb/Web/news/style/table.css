@@ -1,0 +1,56 @@
+@charset "utf-8";
+.tableList {
+	margin-bottom: 10px;
+}
+.tableList  thead tr {
+	line-height: 25px;
+	background-image: url(../images/tableHeadBg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+}
+.tableList thead th {
+	color: #0226BF;
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C0CDDC;
+	font-weight: normal;
+}
+.tableList .tableHeadBg {
+	background-image: url(../images/tableHeadBg.gif);
+	background-repeat: repeat-x;
+	font-weight: bold;
+}
+
+.tableList td {
+	padding: 5px;
+
+}
+.tableList .ColorSet {
+	background-color: #EDEEEF;
+}
+
+
+.tableList tfoot {
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B6D5E7;
+	background-color: #D3E7FB;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #B6D5E7;
+}
+/* 高亮背景效果*/
+
+.tableList tbody tr { 
+  background:#fff; 
+} 
+.tableList tbody tr:hover {
+	background-color: #F6F8FC;
+}
+.tableList .tableDataStyle {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}

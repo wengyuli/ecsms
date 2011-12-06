@@ -1,0 +1,16 @@
+#overlay {
+	BACKGROUND-IMAGE: url(/includes/js/mf_lightbox/overlay.png); Z-INDEX: 90; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}
+* HTML #overlay {
+	BACKGROUND-IMAGE: url(/includes/js/mf_lightbox/blank.gif); FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+        src="/includes/js/mf_lightbox/overlay.png", sizingMethod="scale"); BACKGROUND-COLOR: transparent
+}
+#box {
+	BORDER-BOTTOM: #000000 2px solid; BORDER-LEFT: #000000 2px solid; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #ffffff; OVERFLOW: auto; BORDER-TOP: #000000 2px solid; BORDER-RIGHT: #000000 2px solid; PADDING-TOP: 0px
+}
+#box #close {
+	POSITION: absolute; TOP: 0px; CURSOR: pointer; RIGHT: 0px
+}
+#box #boxContents {
+	PADDING-BOTTOM: 10px; MARGIN-TOP: 12px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}

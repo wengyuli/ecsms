@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.m1860.com/service/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.m1860.com/service/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.m1860.com/service/">
+      <s:element name="query">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashedpass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="queryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="queryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="submitmsg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashedpass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subphone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msgsub" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="submitmsgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="submitmsgResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="changepw">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hashedoldpass" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="timestamp" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newpass" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="changepwResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="changepwResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="querySoapIn">
+    <wsdl:part name="parameters" element="tns:query" />
+  </wsdl:message>
+  <wsdl:message name="querySoapOut">
+    <wsdl:part name="parameters" element="tns:queryResponse" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgSoapIn">
+    <wsdl:part name="parameters" element="tns:submitmsg" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgSoapOut">
+    <wsdl:part name="parameters" element="tns:submitmsgResponse" />
+  </wsdl:message>
+  <wsdl:message name="changepwSoapIn">
+    <wsdl:part name="parameters" element="tns:changepw" />
+  </wsdl:message>
+  <wsdl:message name="changepwSoapOut">
+    <wsdl:part name="parameters" element="tns:changepwResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryHttpGetIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="queryHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgHttpGetIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="subphone" type="s:string" />
+    <wsdl:part name="msgsub" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="changepwHttpGetIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedoldpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="newpass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="changepwHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="queryHttpPostIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="queryHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgHttpPostIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="subphone" type="s:string" />
+    <wsdl:part name="msgsub" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="submitmsgHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="changepwHttpPostIn">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="hashedoldpass" type="s:string" />
+    <wsdl:part name="timestamp" type="s:string" />
+    <wsdl:part name="newpass" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="changepwHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:portType name="SmsServiceSoap">
+    <wsdl:operation name="query">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;查费(返回值为您的余额,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;密码加密处理后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密(格式为"MMDDhhmm")&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:querySoapIn" />
+      <wsdl:output message="tns:querySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse: collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan="2"&gt;提交短信(一次最多100条)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;参数&lt;/td&gt;&lt;td&gt;描述&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;经过MD5加密后的密码&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳字符串,用于密码的加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;subphone&lt;/td&gt;&lt;td&gt;目标手机号码,发送多个时号码时用","隔开,出现非号码字符将被过滤&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;msgsub&lt;/span&gt;&lt;/td&gt;&lt;td&gt;发送的信息,内容不能超过70个字，不要含有换行符&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;返回状态(若大于0,为提交成功的信息条数)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-1&lt;/td&gt;&lt;td&gt;验证失败&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-4&lt;/td&gt;&lt;td&gt;用户余额不足&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-5&lt;/td&gt;&lt;td&gt;短信内容长度为0或超过长度或&lt;br&gt;提交的号码数超过100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;MD5加密算法&lt;/b&gt;&lt;br&gt;算法为hashedpass=MD5(密码+timestamp),其中MD5表示单向哈希算法(例如timestamp="08201535",密码="123456"时,通过MD5算法得出hashedpass="7ee8b9960c4d09e06cfc2b77adac0214")&lt;br&gt;&lt;b&gt;timestamp(时间戳)&lt;/b&gt;的格式为"MMDDHHmm"如2007年8月20日15时35分的时间戳为08201535</wsdl:documentation>
+      <wsdl:input message="tns:submitmsgSoapIn" />
+      <wsdl:output message="tns:submitmsgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;更改密码(返回"0"表示更改成功,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;&lt;span&gt;用户名&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedoldpass&lt;/td&gt;&lt;td&gt;更改前的密码经过加密后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;newpass&lt;/td&gt;&lt;td&gt;更改后密码(不加密)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;</wsdl:documentation>
+      <wsdl:input message="tns:changepwSoapIn" />
+      <wsdl:output message="tns:changepwSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SmsServiceHttpGet">
+    <wsdl:operation name="query">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;查费(返回值为您的余额,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;密码加密处理后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密(格式为"MMDDhhmm")&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:queryHttpGetIn" />
+      <wsdl:output message="tns:queryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse: collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan="2"&gt;提交短信(一次最多100条)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;参数&lt;/td&gt;&lt;td&gt;描述&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;经过MD5加密后的密码&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳字符串,用于密码的加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;subphone&lt;/td&gt;&lt;td&gt;目标手机号码,发送多个时号码时用","隔开,出现非号码字符将被过滤&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;msgsub&lt;/span&gt;&lt;/td&gt;&lt;td&gt;发送的信息,内容不能超过70个字，不要含有换行符&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;返回状态(若大于0,为提交成功的信息条数)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-1&lt;/td&gt;&lt;td&gt;验证失败&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-4&lt;/td&gt;&lt;td&gt;用户余额不足&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-5&lt;/td&gt;&lt;td&gt;短信内容长度为0或超过长度或&lt;br&gt;提交的号码数超过100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;MD5加密算法&lt;/b&gt;&lt;br&gt;算法为hashedpass=MD5(密码+timestamp),其中MD5表示单向哈希算法(例如timestamp="08201535",密码="123456"时,通过MD5算法得出hashedpass="7ee8b9960c4d09e06cfc2b77adac0214")&lt;br&gt;&lt;b&gt;timestamp(时间戳)&lt;/b&gt;的格式为"MMDDHHmm"如2007年8月20日15时35分的时间戳为08201535</wsdl:documentation>
+      <wsdl:input message="tns:submitmsgHttpGetIn" />
+      <wsdl:output message="tns:submitmsgHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;更改密码(返回"0"表示更改成功,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;&lt;span&gt;用户名&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedoldpass&lt;/td&gt;&lt;td&gt;更改前的密码经过加密后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;newpass&lt;/td&gt;&lt;td&gt;更改后密码(不加密)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;</wsdl:documentation>
+      <wsdl:input message="tns:changepwHttpGetIn" />
+      <wsdl:output message="tns:changepwHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SmsServiceHttpPost">
+    <wsdl:operation name="query">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;查费(返回值为您的余额,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;密码加密处理后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密(格式为"MMDDhhmm")&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:queryHttpPostIn" />
+      <wsdl:output message="tns:queryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse: collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan="2"&gt;提交短信(一次最多100条)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;参数&lt;/td&gt;&lt;td&gt;描述&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;用户名&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedpass&lt;/td&gt;&lt;td&gt;经过MD5加密后的密码&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳字符串,用于密码的加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;subphone&lt;/td&gt;&lt;td&gt;目标手机号码,发送多个时号码时用","隔开,出现非号码字符将被过滤&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;msgsub&lt;/span&gt;&lt;/td&gt;&lt;td&gt;发送的信息,内容不能超过70个字，不要含有换行符&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;返回状态(若大于0,为提交成功的信息条数)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-1&lt;/td&gt;&lt;td&gt;验证失败&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-4&lt;/td&gt;&lt;td&gt;用户余额不足&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;-5&lt;/td&gt;&lt;td&gt;短信内容长度为0或超过长度或&lt;br&gt;提交的号码数超过100&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;b&gt;MD5加密算法&lt;/b&gt;&lt;br&gt;算法为hashedpass=MD5(密码+timestamp),其中MD5表示单向哈希算法(例如timestamp="08201535",密码="123456"时,通过MD5算法得出hashedpass="7ee8b9960c4d09e06cfc2b77adac0214")&lt;br&gt;&lt;b&gt;timestamp(时间戳)&lt;/b&gt;的格式为"MMDDHHmm"如2007年8月20日15时35分的时间戳为08201535</wsdl:documentation>
+      <wsdl:input message="tns:submitmsgHttpPostIn" />
+      <wsdl:output message="tns:submitmsgHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table style='border-collapse:collapse;border: 1px solid'&gt;&lt;tr&gt;&lt;td colspan='2'&gt;更改密码(返回"0"表示更改成功,"-1"表示验证失败)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;name&lt;/td&gt;&lt;td&gt;&lt;span&gt;用户名&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hashedoldpass&lt;/td&gt;&lt;td&gt;更改前的密码经过加密后的字符串&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;timestamp&lt;/td&gt;&lt;td&gt;时间戳,用于MD5加密&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;newpass&lt;/td&gt;&lt;td&gt;更改后密码(不加密)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br&gt;</wsdl:documentation>
+      <wsdl:input message="tns:changepwHttpPostIn" />
+      <wsdl:output message="tns:changepwHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmsServiceSoap" type="tns:SmsServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="query">
+      <soap:operation soapAction="http://www.m1860.com/service/query" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <soap:operation soapAction="http://www.m1860.com/service/submitmsg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <soap:operation soapAction="http://www.m1860.com/service/changepw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmsServiceSoap12" type="tns:SmsServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="query">
+      <soap12:operation soapAction="http://www.m1860.com/service/query" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <soap12:operation soapAction="http://www.m1860.com/service/submitmsg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <soap12:operation soapAction="http://www.m1860.com/service/changepw" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmsServiceHttpGet" type="tns:SmsServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="query">
+      <http:operation location="/query" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <http:operation location="/submitmsg" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <http:operation location="/changepw" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmsServiceHttpPost" type="tns:SmsServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="query">
+      <http:operation location="/query" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="submitmsg">
+      <http:operation location="/submitmsg" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="changepw">
+      <http:operation location="/changepw" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SmsService">
+    <wsdl:port name="SmsServiceSoap" binding="tns:SmsServiceSoap">
+      <soap:address location="http://211.155.31.104/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmsServiceSoap12" binding="tns:SmsServiceSoap12">
+      <soap12:address location="http://211.155.31.104/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmsServiceHttpGet" binding="tns:SmsServiceHttpGet">
+      <http:address location="http://211.155.31.104/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmsServiceHttpPost" binding="tns:SmsServiceHttpPost">
+      <http:address location="http://211.155.31.104/service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

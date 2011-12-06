@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<head>
+  <title>标题</title>
+  <meta http-equiv="Content-type" content="text/html;charset=gbk"/>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+  <meta name="Author" content="netease"/>
+  <meta name="Version" content="1.0"/>
+  <meta name="Keywords" content=""/>
+
+  <meta name="Description" content=""/>
+  <style>
+  	body{font-size:12px;font-family:Arial, Helvetica, sans-serif;background:#fff;}
+	a{color:#000;text-decoration:none;}
+	a:hover{color:#ba0001;text-decoration:underline;}
+	p{padding:0;margin:0;}
+	h3{font-size:16px;margin:0 0 11px;}
+	h4{font-size:12px;margin:8px 0 10px;}
+	.fr{float:right;}
+  	.fc1{color:#09c}
+	.fc2{color:#ee7720;}
+	.fc3{color:#000;}
+	.fc4{color:#b23;}
+	.fw1{font-weight:700;}
+	.fs1{font-size:14px;}
+	.dot{font-family:Simsun;}
+	.bd1{border-top:1px dashed #878787;}
+	.bd2{border:1px solid #cbcbcb;}
+  	.clearfix:after{clear:both;content:'.';display:block;height:0;}
+	.clearfix{zoom:1;}
+	.blog{width:420px;margin:0 auto;padding:0 14px;}
+	.topic{float:left;width:205px;margin-right:5px;line-height:20px;}
+	.topic p{width:200px;overflow:hidden;padding-left:10px;text-overflow:ellipsis;white-space:nowrap;background:url(http://cimg2.163.com/cnews/img07/mail/i1.gif) no-repeat 0 9px;}
+ 	.show{position:relative;float:right;line-height:20px;}
+	.show img{padding:1px;}
+	.show .txt{position:absolute;left:0;bottom:4px;width:202px;height:20px;background:#fff;filter:Alpha(opacity=50);opacity:0.5;text-align:center;line-height:20px;}
+	.blogact{height:30px;margin-top:10px;line-height:30px;}
+	.blogact .item{margin-right:5px;*margin-right:3px;}
+  </style>
+</head>
+<body id="page-163-com">
+	<div class="blog">
+		<div class="clearfix">
+			<div class="topic"><br />
+			  <p><a class="fc3" href="http://blog.163.com/ht/10?20100126ht081?fromMailBlogTopic" target="_blank">[话题] 征集全家福背后的故事</a></p>
+					<p><a class="fc3" href="http://btvzhenqing.blog.163.com/blog/static/134788397201003111151303/?fromMailBlogTopic" target="_blank">新晋华表影帝入主北京卫视</a></p>
+					<p><a class="fc3" href="http://yxp.163.com/game/h/tiger.html?sss=fromyxhdq126?fromMailBlogTopic" target="_blank">加入"2010幸福团">>！</a></p>
+					<p><a class="fc3" href="http://blog.163.com/kevin2_0/blog/static/249379200941814255995/?fromMailBlogTopic" target="_blank">84个网易博客简约风格模板</a></p>
+					<p><a class="fc3" href="http://blog.163.com/?fromMailBlogTopic" target="_blank">查看更多精彩话题>></a></p>
+		  </div>
+
+			<div class="show">
+			  <div class="photo">
+					<a href="http://blog.163.com/blog_youcai/blog/static/116638732201002224726445?ycd09&fromMailBlogTopic" target="_blank">
+					<img id="theAva" width="202" height="128" src="newsimages/2719048275025644286.jpg" class="bd2"></img>
+					</a>			  </div>
+		  </div>
+		</div>
+
+		<div class="blogact bd1">
+		</div>
+	</div>
+
+<script type="text/javascript" src="http://st.blog.163.com/js/dwr/engine.js"></script>
+
+<script>
+function getElement(aID){return (document.getElementById) ? document.getElementById(aID): document.all[aID];}
+$=getElement
+
+function getEntry(urlStr) {
+	if (urlStr.indexOf("@126")>0) return "126";
+	if (urlStr.indexOf("@188")>0) return "188";
+	if (urlStr.indexOf("@yeah")>0) return "yeah";
+	return "163";  
+}
+
+function getParam() {
+	var urlStr = window.location.href;
+	var entry = getEntry(urlStr);
+	var len = urlStr.length;
+	var index = urlStr.indexOf("?");
+	var paramStr = "";
+	if (index > 0)
+		paramStr = "&" + urlStr.substring(index + 1, len);
+	var i = urlStr.indexOf("entry=");
+	if (i <= 0)
+		paramStr = paramStr + "&entry=" + entry;
+	paramStr = paramStr.replace("uid=","in_username=").replace("@163.com", "");
+	return paramStr;
+}
+
+function fnInt() {
+//	var paramStr = getParam();
+//	var passportUrl = "http://blog.163.com/passportIn.do?" + paramStr;
+//	$("blog_passport").href = "";
+}
+
+fnInt();
+
+DomainMap = {
+	cookieDomain:'.163.com',
+	serverHostName:'blog.163.com',
+	serverDomain:'.blog.163.com',
+	getParentDomain:function(s){
+		if(s.indexOf('@') != -1 || s.indexOf('_') != -1||s.indexOf('..') != -1||s.charAt(s.length -1) == '.'||s.toLowerCase().substr(s.length - 4) == '.www')
+			return this.serverHostName + '/' +s;
+		return s + this.serverDomain;
+	}
+};
+
+var Browser = {};
+Browser.isFirefox = (navigator.userAgent.indexOf("Firefox") != -1) ? true : false;
+
+String.prototype.escape=function(){return this.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g,"&#34;").replace(/'/g,"&#39;");};
+
+/*
+if (CityShowBean == null) var CityShowBean = {};
+CityShowBean._path = 'http://blog.163.com/tc/dwr';
+CityShowBean.getTopShowForShowye = function(limit,offset,callback){
+	dwr.engine._execute(CityShowBean._path, "CurrentShowBean","getTopShow",limit,offset,false,callback);
+};
+CityShowBean.getPAndC = function(callback){
+dwr.engine._execute(CityShowBean._path, "CurrentShowBean","getPAndC",false,callback);
+};
+function loadCityShow(){
+	CityShowBean.getTopShowForShowye(5,0,showCitys);
+}
+
+function showSameCityProvince(result){
+	try{
+		if ($("theCity")){			
+			var city = "同城";
+			for(var cityObject in coutryAndCity) { 
+			    if (cityObject.country == result.province && cityObject.cityValue == result.city ){
+			        city = result.city;
+			        break;
+			    }
+			}
+			$("theCity").innerHTML=city+"冠军";
+			pageAnalytics(params);
+		}
+	}catch(e){}	
+}
+function showCitys(items){
+	if (items == null || items.length == 0){
+	     CityShowBean.getPAndC(showSameCityProvince);
+	} else {
+		var item = null;
+		for (var i = 0; i < items.length; i++) {
+			if (items[i]) {
+				item = items[0];
+				break;
+			}
+		}
+		var spaceUrl= "http://" + DomainMap.getParentDomain(item.userName) + "?fromMailCityShow";
+		var imgUrl = "http://ud1.blog.163.com/common/ava.s?host=" + item.userName+ "&b=1&t=29";
+		try{
+			if ($("spaceUrl")) $("spaceUrl").href = spaceUrl; 
+			if ($("theAva")) $("theAva").src = imgUrl; 
+			if ($("theCity")) $("theCity").innerHTML= item.city + "冠军";
+			pageAnalytics(params);
+		}catch(e){};
+	}
+}
+
+loadCityShow();		
+*/
+
+var params={"from081204mail163up":"from081204mail163up", "from081204mail163middle":"from081204mail163middle",  "from081204mail163bottom":"from081204mail163bottom"}
+try{
+	function pageAnalytics(params){for(var id in params){var param=params[id];if($(id)==null)continue;var aArray=$(id).getElementsByTagName("a");for(var i=0;i<aArray.length;i++){var a=aArray[i];var url=a.href;if(url.indexOf("#")>=0)continue;if(url.indexOf("?")<0)
+	url=url+"?"+param;else
+	url=url+"&"+param;a.href=url;}}}
+}catch(e){}
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+BODY {
+	FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+.buttonface {
+	FONT-SIZE: 9pt; HEIGHT: 16px
+}
+.smallInput {
+	FONT-SIZE: 9pt; HEIGHT: 20px
+}
+.b2 {
+	FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: "Verdana", "Arial", "宋体"; TEXT-DECORATION: none
+}
+文章内容字体设置 .b1 {
+	FONT-SIZE: 11pt; LINE-HEIGHT: 130%; FONT-FAMILY: "Verdana", "Arial", "宋体"
+}
+标题栏颜色 .title {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #a9d46d; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+标题栏颜色2 专题背景 .title2 {
+	BACKGROUND: #e3f1d1
+}
+标题栏颜色3 .title3 {
+	BORDER-TOP: #a9d46d 1px solid; BACKGROUND: #a9d46d
+}
+表格边框颜色 .border {
+	BORDER-RIGHT: #a9d46d 1px solid; BORDER-TOP: #a9d46d 1px solid; BORDER-LEFT: #a9d46d 1px solid; BORDER-BOTTOM: #a9d46d 1px solid
+}
+表格内背景色 .tdbg {
+	DISPLAY: none; BACKGROUND: #f4faed; TEXT-DECORATION: none
+}
+.bai {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.hei {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.lan {
+	COLOR: #0099cc; TEXT-DECORATION: none
+}
+.T14 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 18px; COLOR: #0066ff
+}
+.T11 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #ff6600
+}
+.shadow {
+	FILTER: DropShadow(Color=#FFFFFF, OffX=1, OffY=1, Positive=1)
+}
+.shadow2 {
+	FILTER: DropShadow(Color=#000000, OffX=1, OffY=1, Positive=1)
+}
+.info {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 150%
+}
+.info2 {
+	FONT-SIZE: 13px; LINE-HEIGHT: 150%
+}
+.dot1 TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 13px; BACKGROUND: url(../images/line0.gif) repeat-x 50% bottom; PADDING-BOTTOM: 3px; LINE-HEIGHT: 16px; PADDING-TOP: 3px
+}

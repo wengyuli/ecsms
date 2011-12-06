@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="g_Submit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="spwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scorpid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sprdid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sdst" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="g_SubmitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g_SubmitResult" type="tns:CSubmitState" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CSubmitState">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="State" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MsgID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MsgState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Reserve" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="g_SchedulerSubmit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="spwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scorpid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sprdid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sbegindate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sdst" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="smsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="g_SchedulerSubmitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g_SchedulerSubmitResult" type="tns:CSubmitState" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VersionInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="VersionInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="VersionInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="g_QuerySendState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msgid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="g_QuerySendStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="g_QuerySendStateResult" type="tns:CSendState" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CSendState">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="State" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TelNum" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SndNum" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SndErr" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="OutFailedNum" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MsgState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Reserve" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Sm_GetRemain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="spwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scorpid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sprdid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sm_GetRemainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sm_GetRemainResult" type="tns:CRemain" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CRemain">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="State" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Remain" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CSubmitState" nillable="true" type="tns:CSubmitState" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="CSendState" nillable="true" type="tns:CSendState" />
+      <s:element name="CRemain" type="tns:CRemain" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="g_SubmitSoapIn">
+    <wsdl:part name="parameters" element="tns:g_Submit" />
+  </wsdl:message>
+  <wsdl:message name="g_SubmitSoapOut">
+    <wsdl:part name="parameters" element="tns:g_SubmitResponse" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitSoapIn">
+    <wsdl:part name="parameters" element="tns:g_SchedulerSubmit" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitSoapOut">
+    <wsdl:part name="parameters" element="tns:g_SchedulerSubmitResponse" />
+  </wsdl:message>
+  <wsdl:message name="VersionInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:VersionInfo" />
+  </wsdl:message>
+  <wsdl:message name="VersionInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:VersionInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateSoapIn">
+    <wsdl:part name="parameters" element="tns:g_QuerySendState" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateSoapOut">
+    <wsdl:part name="parameters" element="tns:g_QuerySendStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainSoapIn">
+    <wsdl:part name="parameters" element="tns:Sm_GetRemain" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainSoapOut">
+    <wsdl:part name="parameters" element="tns:Sm_GetRemainResponse" />
+  </wsdl:message>
+  <wsdl:message name="g_SubmitHttpGetIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+    <wsdl:part name="sdst" type="s:string" />
+    <wsdl:part name="smsg" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_SubmitHttpGetOut">
+    <wsdl:part name="Body" element="tns:CSubmitState" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitHttpGetIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+    <wsdl:part name="sbegindate" type="s:string" />
+    <wsdl:part name="sdst" type="s:string" />
+    <wsdl:part name="smsg" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitHttpGetOut">
+    <wsdl:part name="Body" element="tns:CSubmitState" />
+  </wsdl:message>
+  <wsdl:message name="VersionInfoHttpGetIn" />
+  <wsdl:message name="VersionInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateHttpGetIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="msgid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateHttpGetOut">
+    <wsdl:part name="Body" element="tns:CSendState" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainHttpGetIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainHttpGetOut">
+    <wsdl:part name="Body" element="tns:CRemain" />
+  </wsdl:message>
+  <wsdl:message name="g_SubmitHttpPostIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+    <wsdl:part name="sdst" type="s:string" />
+    <wsdl:part name="smsg" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_SubmitHttpPostOut">
+    <wsdl:part name="Body" element="tns:CSubmitState" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitHttpPostIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+    <wsdl:part name="sbegindate" type="s:string" />
+    <wsdl:part name="sdst" type="s:string" />
+    <wsdl:part name="smsg" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_SchedulerSubmitHttpPostOut">
+    <wsdl:part name="Body" element="tns:CSubmitState" />
+  </wsdl:message>
+  <wsdl:message name="VersionInfoHttpPostIn" />
+  <wsdl:message name="VersionInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateHttpPostIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="msgid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="g_QuerySendStateHttpPostOut">
+    <wsdl:part name="Body" element="tns:CSendState" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainHttpPostIn">
+    <wsdl:part name="sname" type="s:string" />
+    <wsdl:part name="spwd" type="s:string" />
+    <wsdl:part name="scorpid" type="s:string" />
+    <wsdl:part name="sprdid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Sm_GetRemainHttpPostOut">
+    <wsdl:part name="Body" element="tns:CRemain" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="g_Submit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SubmitSoapIn" />
+      <wsdl:output message="tns:g_SubmitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交(可指定起始发送时间):&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sbegindate:起始发送时间,格式为"yyyy-MM-dd HH:mm:ss"&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SchedulerSubmitSoapIn" />
+      <wsdl:output message="tns:g_SchedulerSubmitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">版本信息,仅用于提示</wsdl:documentation>
+      <wsdl:input message="tns:VersionInfoSoapIn" />
+      <wsdl:output message="tns:VersionInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发送进度查询:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;msgid:需要查询的提交结果信息编号</wsdl:documentation>
+      <wsdl:input message="tns:g_QuerySendStateSoapIn" />
+      <wsdl:output message="tns:g_QuerySendStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询账户余额:&lt;br&gt;参数说明:&lt;br&gt;sname:查询用户名&lt;br&gt;spwd:查询用户密码&lt;br&gt;scorpid:企业号码&lt;br&gt;sprdid:产品编码</wsdl:documentation>
+      <wsdl:input message="tns:Sm_GetRemainSoapIn" />
+      <wsdl:output message="tns:Sm_GetRemainSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpGet">
+    <wsdl:operation name="g_Submit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SubmitHttpGetIn" />
+      <wsdl:output message="tns:g_SubmitHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交(可指定起始发送时间):&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sbegindate:起始发送时间,格式为"yyyy-MM-dd HH:mm:ss"&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SchedulerSubmitHttpGetIn" />
+      <wsdl:output message="tns:g_SchedulerSubmitHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">版本信息,仅用于提示</wsdl:documentation>
+      <wsdl:input message="tns:VersionInfoHttpGetIn" />
+      <wsdl:output message="tns:VersionInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发送进度查询:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;msgid:需要查询的提交结果信息编号</wsdl:documentation>
+      <wsdl:input message="tns:g_QuerySendStateHttpGetIn" />
+      <wsdl:output message="tns:g_QuerySendStateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询账户余额:&lt;br&gt;参数说明:&lt;br&gt;sname:查询用户名&lt;br&gt;spwd:查询用户密码&lt;br&gt;scorpid:企业号码&lt;br&gt;sprdid:产品编码</wsdl:documentation>
+      <wsdl:input message="tns:Sm_GetRemainHttpGetIn" />
+      <wsdl:output message="tns:Sm_GetRemainHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service1HttpPost">
+    <wsdl:operation name="g_Submit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SubmitHttpPostIn" />
+      <wsdl:output message="tns:g_SubmitHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">短信提交(可指定起始发送时间):&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;spwd:提交密码&lt;br&gt;scorpid:企业代码&lt;br&gt;sprdid:产品编号&lt;br&gt;sbegindate:起始发送时间,格式为"yyyy-MM-dd HH:mm:ss"&lt;br&gt;sdst:接收号码，多个以','分割,不可超过10000个号码&lt;br&gt;smsg:短信内容</wsdl:documentation>
+      <wsdl:input message="tns:g_SchedulerSubmitHttpPostIn" />
+      <wsdl:output message="tns:g_SchedulerSubmitHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">版本信息,仅用于提示</wsdl:documentation>
+      <wsdl:input message="tns:VersionInfoHttpPostIn" />
+      <wsdl:output message="tns:VersionInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">发送进度查询:&lt;br&gt;参数说明:&lt;br&gt;sname:提交用户&lt;br&gt;msgid:需要查询的提交结果信息编号</wsdl:documentation>
+      <wsdl:input message="tns:g_QuerySendStateHttpPostIn" />
+      <wsdl:output message="tns:g_QuerySendStateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询账户余额:&lt;br&gt;参数说明:&lt;br&gt;sname:查询用户名&lt;br&gt;spwd:查询用户密码&lt;br&gt;scorpid:企业号码&lt;br&gt;sprdid:产品编码</wsdl:documentation>
+      <wsdl:input message="tns:Sm_GetRemainHttpPostIn" />
+      <wsdl:output message="tns:Sm_GetRemainHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="g_Submit">
+      <soap:operation soapAction="http://tempuri.org/g_Submit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <soap:operation soapAction="http://tempuri.org/g_SchedulerSubmit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <soap:operation soapAction="http://tempuri.org/VersionInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <soap:operation soapAction="http://tempuri.org/g_QuerySendState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <soap:operation soapAction="http://tempuri.org/Sm_GetRemain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="g_Submit">
+      <soap12:operation soapAction="http://tempuri.org/g_Submit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <soap12:operation soapAction="http://tempuri.org/g_SchedulerSubmit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <soap12:operation soapAction="http://tempuri.org/VersionInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <soap12:operation soapAction="http://tempuri.org/g_QuerySendState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <soap12:operation soapAction="http://tempuri.org/Sm_GetRemain" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpGet" type="tns:Service1HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="g_Submit">
+      <http:operation location="/g_Submit" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <http:operation location="/g_SchedulerSubmit" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <http:operation location="/VersionInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <http:operation location="/g_QuerySendState" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <http:operation location="/Sm_GetRemain" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1HttpPost" type="tns:Service1HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="g_Submit">
+      <http:operation location="/g_Submit" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_SchedulerSubmit">
+      <http:operation location="/g_SchedulerSubmit" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VersionInfo">
+      <http:operation location="/VersionInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="g_QuerySendState">
+      <http:operation location="/g_QuerySendState" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sm_GetRemain">
+      <http:operation location="/Sm_GetRemain" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://wt.umob.cn/submitdata/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://wt.umob.cn/submitdata/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpGet" binding="tns:Service1HttpGet">
+      <http:address location="http://wt.umob.cn/submitdata/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1HttpPost" binding="tns:Service1HttpPost">
+      <http:address location="http://wt.umob.cn/submitdata/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

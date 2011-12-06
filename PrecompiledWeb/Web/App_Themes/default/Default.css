@@ -1,0 +1,62 @@
+
+body{ margin:0px 0px 0px 0px; font-family:Î¢ÈíÑÅºÚ; font-size:12px; background-color:#FFFFFF; }
+
+
+A:link {
+	COLOR: Black; TEXT-DECORATION: none; cursor:pointer;
+}
+A:visited {
+	COLOR: #555555; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #eb8a3d; TEXT-DECORATION: underline; cursor:pointer;
+}
+
+.lable
+{
+    color:#555555;
+    font-size:12px;	
+}
+.span
+{
+    color:#555555;
+    font-size:12px;	
+}
+
+.button
+{  
+	border-width: 0px;
+    background-position: center 50%;
+	background-image: url('Images/botton.jpg');
+	    width: 66px;
+	    line-height: 20px;
+	    background-repeat: no-repeat;
+	    text-align: center;
+	    font-size:12px;
+}
+.textbox
+{	
+	BORDER-RIGHT: #c0c0c0 1px solid; 
+	PADDING-RIGHT: 2px; 
+	 BORDER-TOP: #c0c0c0 1px solid;
+	 PADDING-LEFT: 3px; 
+	 FONT-SIZE: 12px; 
+	 PADDING-BOTTOM: 2px; 
+	 BORDER-LEFT: #c0c0c0 1px solid; 
+	 PADDING-TOP: 2px; 
+	 BORDER-BOTTOM: #c0c0c0 1px solid;
+	 HEIGHT: 15px;
+	 }
+.dropdownlist
+{
+    font-size:12px;
+    height: 21px;
+}
+.font
+{
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+
+

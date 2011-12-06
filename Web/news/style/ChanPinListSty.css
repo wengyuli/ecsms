@@ -1,0 +1,149 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 5px;
+	font-size: 12px;
+	color: #969696;
+	line-height: 18px;
+	font-family:  "宋体", "Segoe UI", "verdana", "arial";
+	background-color: #FFFFFF;
+}
+.ChanPinShowBox {
+	height: 175px;
+	width: 635px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ChanPinShowBox .ShowBoxLeft {
+	float: left;
+	height: 155px;
+	width: 160px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #DCDCDC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.ChanPinShowBox .ShowBoxCenter {
+	width: 255px;
+
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	float: left;
+	height: 155px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #DCDCDC;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.ChanPinShowBox .ShowBoxRight {
+	float: left;
+	height: 155px;
+	width: 165px;
+	*_width: 160px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+button {
+	line-height: 24px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 26px;
+	border: 1px solid #6084D2;
+	background-color: #A6BBE6;
+	width: 120px;
+	padding: 0px;
+}
+.b1 {
+	background-image: url(../images/butBg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	width: 120px;
+	
+}
+sup {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+	color: #FF7400;
+}.ChanPinShowBox .ShowBoxCenter ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	*+html padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	
+}
+.fontAlinkSty1 {
+	color: #4A9024;
+	text-decoration: none;
+}
+.fontAlinkSty1:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+.ChanPinShowBox .ShowBoxRight ul {
+	padding: 0px;
+
+	margin: 5px;
+}
+.ChanPinShowBox .ShowBoxRight li {
+	line-height: 24px;
+	list-style-type: none;
+	background-image: url(../images/arrow1.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-indent: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ChanPinShowBox .ShowBoxRight li a {
+	color: #2F5EC1;
+	text-decoration: none;
+}
+.ChanPinShowBox .ShowBoxRight li a:hover {
+	color: #707070;
+	text-decoration: underline;
+}
+.input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #909090;
+	height: 26px;
+	border: 1px solid #DCDCDC;
+	background-image: url(../images/InPutBg.jpg);
+	background-repeat: repeat-x;
+	line-height: 22px;
+}
+.submit {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-image: url(../images/BtnBg.jpg);
+	line-height: 24px;
+	height: 25px;
+	background-repeat: repeat-x;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #6084D2;
+	border-right-color: #3E5C9B;
+	border-bottom-color: #3E5C9B;
+	border-left-color: #6084D2;
+}

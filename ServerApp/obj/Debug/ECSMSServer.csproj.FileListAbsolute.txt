@@ -1,0 +1,324 @@
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMSServer.exe
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMSServer.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ResolveAssemblyReference.cache
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.exe
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMSServer.exe.config
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMS.BLL.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMS.Common.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMS.DAL.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMS.DBUtility.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMS.Model.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.Form1.resources
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMSServer.exe.manifest
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\bin\Debug\ECSMSServer.application
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.exe.manifest
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.application
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\ECSMSServer\obj\Debug\ECSMSServer.pwd.resources
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\Excel.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\COM.Excel.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\OpenSmtp.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\MySql.Data.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.exe
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.pdb
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.application
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.pdb
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+C:\Documents and Settings\Administrator\桌面\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\My Study Project\ECSMS\SMSServerApp20100315A\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.Common.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.Model.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\office.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\Excel.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\COM.Excel.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\OpenSmtp.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\MySql.Data.dll
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\My Study Project\ECSMS\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\My Study Project\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\office.dll
+E:\My Projects\ECSMS\SourceCode\SMSServerApp\bin\Debug\Microsoft.Vbe.Interop.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.exe
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.application
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.exe
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMSServer.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.Common.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.Model.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\Excel.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\COM.Excel.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\OpenSmtp.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\MySql.Data.dll
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+G:\My Projects\ECSMS\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.csproj.GenerateResource.Cache
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\ECSMSServer.application
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+G:\My Projects\ECSMS\SMSServerApp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\Excel.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\COM.Excel.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\OpenSmtp.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\MySql.Data.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\Excel.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\COM.Excel.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\OpenSmtp.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\MySql.Data.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ResGen.read.1.tlog
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ResGen.write.1.tlog
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\SourceCode\SMSServerApp\obj\Debug\ECSMSServer.application
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMSServer.application
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMSServer.exe
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMSServer.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\Excel.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\COM.Excel.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\OpenSmtp.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\MySql.Data.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ResGen.read.1.tlog
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ResGen.write.1.tlog
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.application
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.exe
+C:\Users\wengyuli\Desktop\ecsmspro\SMSServerApp\obj\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMSServer.exe.config
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMSServer.application
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.BLL.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Channel.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Common.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.DAL.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Model.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\OpenSmtp.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\Excel.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\COM.Excel.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\System.Data.SQLite.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\IBatisNet.Common.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\MySql.Data.dll
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Common.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Model.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\bin\Debug\ECSMS.Channel.pdb
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\GenerateResource.read.1.tlog
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\GenerateResource.write.1.tlog
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.application
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\新代码\SMSServerApp\obj\Debug\ECSMSServer.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMSServer.exe.config
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMSServer.exe.manifest
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMSServer.application
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMSServer.exe
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMSServer.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.BLL.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Channel.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Common.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.DBUtility.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Model.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.DAL.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\Excel.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\COM.Excel.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\OpenSmtp.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\IBatisNet.DataMapper.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\IBatisNet.Common.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\System.Data.SQLite.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\MySql.Data.dll
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.BLL.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Channel.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Common.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.DBUtility.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.Model.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\bin\Debug\ECSMS.DAL.pdb
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.Form1.resources
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.exe.manifest
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.application
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.exe
+C:\Users\wengyuli\Desktop\CodematicDemo\ServerApp\obj\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMSServer.exe.config
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMSServer.application
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMSServer.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.BLL.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Channel.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Common.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.DBUtility.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Model.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.DAL.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\OpenSmtp.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\Excel.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\COM.Excel.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\System.Data.SQLite.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\IBatisNet.DataMapper.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\IBatisNet.Common.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\MySql.Data.dll
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.BLL.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Channel.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Common.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.DBUtility.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.Model.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\bin\Debug\ECSMS.DAL.pdb
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.Form1.resources
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.Properties.Resources.resources
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\GenerateResource.read.1.tlog
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\GenerateResource.write.1.tlog
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.exe.manifest
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.application
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.exe
+E:\MyProjects\ECSMS\SourceCode\ECSMS\ServerApp\obj\Debug\ECSMSServer.pdb
